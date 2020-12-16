@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import Layout from "../components/layout"
 import Kv from "../components/kv"
 import {Container , Row, Col} from "react-bootstrap"
-import BlogItem from '../components/BlogItem'
+import BlogItem from '../components/blogItem'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
